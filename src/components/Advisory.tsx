@@ -4,38 +4,17 @@ import { Badge } from "@/components/ui/badge";
 const Advisory = () => {
   const advisors = [
     {
-      name: "Subburaj Alagarsamy",
-      affiliation: "Manipal Academy of Higher Education, Dubai Campus",
-      location: "Dubai",
-      image: "/lovable-uploads/Larisa.jpg", // placeholder, user needs to provide images
+      name: "Veronica Greis Andia Flores",
+      affiliation: "Director, INCUNALAB (Business Incubator), Universidad Nacional del Altiplano",
+      location: "Peru",
+      image: "/advisory/veronica.jpeg",
       expertise: "Advisory Member"
     },
     {
-      name: "Balamurugan Balusamy",
-      affiliation: "Manipal Academy of Higher Education, Dubai Campus",
-      location: "Dubai",
-      image: "/lovable-uploads/Akshi.jpeg", // placeholder
-      expertise: "Advisory Member"
-    },
-    {
-      name: "Rajiv Selvam",
-      affiliation: "Manipal Academy of Higher Education, Dubai Campus",
-      location: "Dubai",
-      image: "/lovable-uploads/Jamie.png", // placeholder
-      expertise: "Advisory Member"
-    },
-    {
-      name: "George A. Tsihrintzis",
-      affiliation: "University of Piraeus",
-      location: "Greece",
-      image: "/lovable-uploads/Basel.jpg", // placeholder
-      expertise: "Advisory Member"
-    },
-    {
-      name: "Bhuvan Unhelkar",
-      affiliation: "College of Business, University of South Florida",
-      location: "USA",
-      image: "/lovable-uploads/Jennifer.jpg", // placeholder
+      name: "Fred Torres Cruz",
+      affiliation: "Researcher & Innovation/Technology Management Specialist, Parque Científico y Tecnológico, Universidad Nacional del Altiplano",
+      location: "Peru",
+      image: "/advisory/fred.jpeg",
       expertise: "Advisory Member"
     }
   ];
@@ -55,7 +34,7 @@ const Advisory = () => {
         </div>
 
         {/* Advisory Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {advisors.map((advisor, index) => (
             <Card 
               key={index} 

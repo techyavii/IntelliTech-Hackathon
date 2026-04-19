@@ -49,7 +49,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2 bg-earth-blue/20 px-3 py-2 rounded-lg border border-earth-blue/30">
               <MapPin className="w-5 h-5 text-blue-200" />
-              <span className="font-medium text-blue-200">Venue at Dubai in Online Mode</span>
+              <span className="font-medium text-blue-200">Online Mode</span>
             </div>
             <div className="flex items-center gap-2 bg-earth-teal/20 px-3 py-2 rounded-lg border border-earth-teal/30">
               <Users className="w-5 h-5 text-teal-200" />
@@ -149,15 +149,20 @@ const Hero = () => {
         >
           <div className="mx-auto inline-flex items-center gap-4 rounded-full bg-white/10 px-6 py-3 backdrop-blur-md border border-white/20">
             <img
-              src="/collaborators/UniversityOfLondon.png"
-              alt="Goldsmiths, University of London"
+              src="/collaborators/UNAP.jpeg"
+              alt="Universidad Nacional del Altiplano"
+              className="h-10 w-auto object-contain"
+            />
+            <img
+              src="/collaborators/INCUNA.jpeg"
+              alt="INCUNALAB"
               className="h-10 w-auto object-contain"
             />
 
             <p className="text-sm md:text-base text-white/80">
-              Organised Jointly by{" "}
+              Organised by{" "}
               <span className="font-semibold text-white">
-                Manipal Academy of Higher Education (MAHE) Dubai Campus; University of Piraeus Greece and University of South Florida USA
+                Universidad Nacional del Altiplano de Puno - Perú
               </span>
             </p>
           </div>

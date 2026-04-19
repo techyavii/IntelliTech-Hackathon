@@ -65,6 +65,93 @@ const ProgramSchedule = () => {
           ))}
         </div>
 
+        {/* Event Days */}
+        <div className="grid md:grid-cols-2 gap-8 mb-16 max-w-6xl mx-auto">
+          {/* Day 1 */}
+          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300">
+            <CardHeader className="text-center pb-4">
+              <Badge variant="secondary" className="w-fit mx-auto mb-2">Day 1</Badge>
+              <CardTitle className="text-2xl text-foreground flex items-center justify-center gap-3">
+                <Calendar className="w-6 h-6 text-earth-green" />
+                April 11, 2026
+              </CardTitle>
+              <p className="text-lg font-semibold text-earth-green">Selection Round</p>
+            </CardHeader>
+            <CardContent className="text-center">
+              <div className="bg-gradient-hero/10 rounded-lg p-6 mb-6">
+                <h4 className="font-semibold text-foreground mb-2">Initial Presentation Round</h4>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  All registered teams will present their solutions to the judging panel. 
+                  Teams will be evaluated based on the judging criteria.
+                </p>
+              </div>
+              <Button
+                className="w-full py-6 mb-4 font-bold text-lg"
+                disabled
+                onClick={() =>
+                  window.open(
+                    "https://docs.google.com/spreadsheets/d/1KuGtb5cP3iOBgM5Ad5Zmlw5gRPLyXkoXiAlSuHe4tMM/edit?usp=sharing",
+                    "_blank"
+                  )
+                }
+              >
+                Day-1 Shortlisted Teams
+              </Button> 
+              <Button
+                className="w-full"
+                onClick={() => window.open("https://us06web.zoom.us/j/88289871936?pwd=XmBu9Gn6t0fgOoH0AwEEkQ8bt6s443.1", "_blank")}
+                disabled
+              >
+                <Video className="w-4 h-4 mr-2" />
+                Join Session
+              </Button>
+            </CardContent>
+          </Card>
+
+          {/* Day 2 */}
+          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300 ring-2 ring-earth-green/30">
+            <CardHeader className="text-center pb-4">
+              <Badge variant="secondary" className="w-fit mx-auto mb-2 bg-earth-green text-white">Day 2</Badge>
+              <CardTitle className="text-2xl text-foreground flex items-center justify-center gap-3">
+                <Calendar className="w-6 h-6 text-earth-green" />
+                April 12, 2026
+              </CardTitle>
+              <p className="text-lg font-semibold text-earth-green">Final Round</p>
+            </CardHeader>
+            <CardContent className="text-center">
+              <div className="bg-gradient-hero/10 rounded-lg p-6 mb-6">
+                <h4 className="font-semibold text-foreground mb-2">Final Presentations & Awards</h4>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Selected teams from Day 1 will present their refined solutions. 
+                  Winners will be announced and prizes distributed.
+                </p>
+              </div>
+              <Button
+                className="w-full py-6 mb-4 font-bold text-lg"
+                disabled
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1DinsLPCJ1oMYdWNxDdLaNeUGRj9u8SMS/view?usp=sharing",
+                    "_blank"
+                    
+                  )
+                }
+              >
+                Day-2 Shortlisted Teams
+              </Button> 
+              <Button
+                className="w-full"
+                onClick={() => window.open("https://us06web.zoom.us/j/82524425157?pwd=FaiIaPYdgJAhS97KQmT6AUWq79pZDy.1", "_blank")}
+                disabled
+              >
+                <Video className="w-4 h-4 mr-2" />
+                <Award className="w-4 h-4 mr-2" />
+                Join Final Round (For Selected Teams Only)
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+
 {/* Hackathon Stages */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 max-w-6xl mx-auto">
           {/* Stage 1 */}
@@ -207,7 +294,7 @@ const ProgramSchedule = () => {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <div className="flex items-center gap-2 text-earth-green font-medium">
                   <Clock className="w-5 h-5" />
-                  Venue at Dubai in Online Mode
+                  Online Mode
                 </div>
               </div>
             </CardContent>
