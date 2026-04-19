@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, Users, Trophy } from "lucide-react";
-import heroImage from "@/assets/Hero-Challenge.webp";
+import heroImage from "@/assets/Hero-Challenge.png";
 import { Link, useNavigate } from "react-router-dom";
 
 const Hero = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
         {/* Logo/Brand */}
         <div className="mb-8 animate-fade-in">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold mb-4 bg-gradient-to-r from-white to-indigo-700 bg-clip-text text-transparent leading-tight">
-            IntelliTech Hackathon: Engineering Smart Solutions 🚀
+            IntelliTech Hackathon: Engineering Smart Solutions
 
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl font-light opacity-90">
@@ -127,13 +127,13 @@ const Hero = () => {
               size="xl" 
               className="min-w-48"
               onClick={() => window.open("https://forms.gle/7mTSR8f8cvyeuQvU6", "_blank")}
-              disabled
+              // disabled
             >
               Register Your Team
             </Button>
-            <div className="absolute -top-3 -right-3 bg-red-500 text-white font-bold px-3 py-1 rounded-full shadow-lg text-xs animate-pulse">
+            {/* <div className="absolute -top-3 -right-3 bg-red-500 text-white font-bold px-3 py-1 rounded-full shadow-lg text-xs animate-pulse">
               Registration Closed
-            </div>
+            </div> */}
           </div>
           <Link to="/schedule">
             <Button variant="outline" size="xl" className="min-w-48 border-white text-white bg-white/20 hover:bg-white hover:text-primary backdrop-blur-md">

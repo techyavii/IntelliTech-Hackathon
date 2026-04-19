@@ -25,13 +25,13 @@ const ResultsPage = () => {
     <>
       <Navigation />
 
-      <div className="min-h-screen bg-[#f4fbf7] px-6 py-32">
+      <div className="min-h-screen bg-background px-6 py-32">
         <div className="max-w-6xl mx-auto text-center">
           {/* Header */}
-          <h1 className="text-4xl font-bold text-[#1b4332]">
+          <h1 className="text-4xl font-bold text-foreground">
             IntelliTech Hackathon: Engineering Smart Solutions 🚀
           </h1>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
             Official results and feedback from our winning teams.
           </p>
 
@@ -41,14 +41,14 @@ const ResultsPage = () => {
               href="https://drive.google.com/file/d/1aDVCyD5qChA-LVxd3SK6z97njsh5lrZ6/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#2d6a4f] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#1b4332] transition"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary/90 transition"
             >
               📄 See Results (PDF)
             </a>
           </div>
 
           {/* <section className="mt-20">
-            <h2 className="text-2xl font-semibold text-[#1b4332] mb-8">
+            <h2 className="text-2xl font-semibold text-foreground mb-8">
               🎥 Feedback from Winning Teams
             </h2>
 
@@ -61,18 +61,18 @@ const ResultsPage = () => {
                   rel="noopener noreferrer"
                   className="group bg-white rounded-2xl shadow hover:shadow-lg transition p-6 text-left"
                 >
-                  <div className="h-40 bg-[#e9f5ef] rounded-xl flex items-center justify-center text-5xl group-hover:scale-105 transition">
+                  <div className="h-40 bg-secondary rounded-xl flex items-center justify-center text-5xl group-hover:scale-105 transition">
                     ▶️
                   </div>
 
-                  <h3 className="mt-4 text-lg font-semibold text-[#1b4332]">
+                  <h3 className="mt-4 text-lg font-semibold text-foreground">
                     {video.team}
                   </h3>
-                  <p className="text-sm text-gray-600 mt-2">
+                  <p className="text-sm text-muted-foreground mt-2">
                     {video.description}
                   </p>
 
-                  <span className="inline-block mt-4 text-[#2d6a4f] font-medium">
+                  <span className="inline-block mt-4 text-accent font-medium">
                     Watch Video →
                   </span>
                 </a>

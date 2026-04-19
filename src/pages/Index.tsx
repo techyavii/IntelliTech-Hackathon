@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import challengeCarousel from "@/components/challengeCarousel";
+// import challengeCarousel from "@/components/challengeCarousel";
 import Advisory from "@/components/Advisory";
 import Judges from "@/components/Judges";
 import Footer from "@/components/Footer";
@@ -14,7 +14,7 @@ const Index = () => {
       <About />
       {/* <challengeCarousel /> */}
       <Advisory />
-      <Judges />
+      {/* <Judges /> */}
       <Footer />
     </div>
   );

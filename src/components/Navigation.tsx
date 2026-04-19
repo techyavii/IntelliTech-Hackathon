@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Leaf, ChevronDown } from "lucide-react";
+import { Menu, X, Cpu, ChevronDown } from "lucide-react";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,7 @@ const Navigation = () => {
   const mainNavItems = [
     { name: "Home", href: "/" },
     { name: "IntelliTech Hackathon Schedule", href: "/schedule" },
-    { name: "Results", href: "/results" }
+    // { name: "Results", href: "/results" }
   ];
 
   const resourcesItems = [
@@ -39,7 +39,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <Leaf className="w-5 h-5 text-white" />
+              <Cpu className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold text-foreground">
               IntelliTech Hackathon: Engineering Smart Solutions 🚀
@@ -126,14 +126,14 @@ const Navigation = () => {
                 variant="earth"
                 size="sm"
                 onClick={() => window.open("https://forms.gle/7mTSR8f8cvyeuQvU6", "_blank")}
-                disabled
-                className="opacity-60 cursor-not-allowed"
+                // disabled
+                // className="opacity-60 cursor-not-allowed"
               >
                 Register Now
               </Button>
-              <div className="absolute -top-2 -right-2 bg-red-500 text-white font-bold px-2 py-0.5 rounded-full shadow-lg text-xs animate-pulse">
+              {/* <div className="absolute -top-2 -right-2 bg-red-500 text-white font-bold px-2 py-0.5 rounded-full shadow-lg text-xs animate-pulse">
                 Closed
-              </div>
+              </div> */}
             </div>
           </div>
 
