@@ -1,104 +1,85 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { FileText, Video, Upload, Calendar, Users, Lightbulb, Target, BarChart3, Rocket, Code, Globe, Shield, AlertCircle, Award, CheckCircle, Presentation } from "lucide-react";
+import { FileText, Video, Upload, Calendar, Users, Lightbulb, Target, BarChart3, Rocket } from "lucide-react";
 
 const SubmissionGuidelines = () => {
-  const submissionComponents = [
+  const slideStructure = [
     {
       number: 1,
-      title: "Working Prototype or Functional Model",
-      subtitle: "",
-      icon: <Code className="w-6 h-6" />,
+      title: "Team and Institutional Information",
+      icon: <Users className="w-5 h-5" />,
       points: [
-        "A functional prototype, proof-of-concept or working model",
-        "Demonstrates the core features and functionality",
-        "Shows technical implementation of the solution"
+        "Name of the institution or university or organization",
+        "Official institution/university/organization logo", 
+        "Team name (if applicable)",
+        "Names and designated roles of all team members",
+        "Contact information (email and phone number of the team leader)"
       ]
     },
     {
       number: 2,
-      title: "Source Code and Documentation",
-      subtitle: "",
-      icon: <FileText className="w-6 h-6" />,
+      title: "Environmental Problem Statement",
+      icon: <Target className="w-5 h-5" />,
       points: [
-        "Complete source code repository",
-        "Clear documentation and setup instructions",
-        "Technical specifications and architecture details"
+        "Clearly articulate the environmental issue your team aims to address",
+        "Explain the significance of the problem and its impact on local ecosystems or communities",
+        "Include relevant data or examples to highlight the urgency and importance of the issue"
       ]
     },
     {
       number: 3,
-      title: "Presentation Slides or Demo Video",
-      subtitle: "",
-      icon: <Presentation className="w-6 h-6" />,
+      title: "Proposed Sustainable Solution",
+      icon: <Lightbulb className="w-5 h-5" />,
       points: [
-        "Professional presentation slides",
-        "Demo video showcasing the solution",
-        "Clear explanation of problem and solution"
+        "Describe your innovative solution to the identified challenge",
+        "Detail how technology is integrated to achieve sustainable outcomes",
+        "Emphasize the distinctive features of your approach, especially its suitability for the local context"
       ]
     },
     {
       number: 4,
-      title: "Brief Solution Report",
-      subtitle: "",
-      icon: <Upload className="w-6 h-6" />,
+      title: "Impact and Feasibility",
+      icon: <BarChart3 className="w-5 h-5" />,
       points: [
-        "Problem statement and proposed solution",
-        "Technology stack and implementation details",
-        "Expected impact and scalability"
+        "Estimate the potential environmental benefits (e.g. CO₂ reduction, water conservation, etc.)",
+        "Evaluate the solution's technical and financial viability",
+        "Compare your approach to existing solutions, highlighting improvements in sustainability and efficiency"
+      ]
+    },
+    {
+      number: 5,
+      title: "Implementation and Scalability",
+      icon: <Rocket className="w-5 h-5" />,
+      points: [
+        "Present a realistic implementation plan, including major milestones",
+        "Identify anticipated local challenges and proposed strategies for overcoming them",
+        "Discuss how the solution can be scaled or adapted to other regions facing similar environmental issues"
       ]
     }
   ];
 
-  const technicalRequirements = [
-    "The solution must use Artificial Intelligence as a core component, not merely automation.",
-    "Permitted AI approaches include:",
-    "Machine Learning / Deep Learning",
-    "Natural Language Processing (NLP)",
-    "Computer Vision",
-    "Predictive / Prescriptive Analytics",
-    "Use of open-source datasets and frameworks is allowed with proper citation.",
-    "Synthetic or simulated datasets may be used where real data is unavailable."
-  ];
-
-  const sdgAlignment = [
-    "Each submission must clearly align with at least one UN Sustainable Development Goal (SDG) listed in the challenge tracks.",
-    "Teams must explain how their solution contributes to SDG targets and outcomes."
-  ];
-
-  const ethicsOriginality = [
-    "Submissions must be original work developed for this challenge.",
-    "Plagiarism or reuse of previously submitted projects is prohibited.",
-    "Solutions must adhere to Responsible AI principles, including:",
-    "Data privacy and security",
-    "Fairness and bias mitigation",
-    "Transparency and explainability",
-    "Any use of sensitive data must comply with applicable data protection laws."
-  ];
-
-  const finalPresentation = [
-    "Shortlisted teams may be required to:",
-    "Deliver a presentation (5 minutes) & demo of the prototype (3 minutes)",
-    "Participate in a Q&A session (2 minutes) with the jury",
-    "Presentation slides should be clear, concise and impact-focused."
-  ];
-
-  const disqualificationConditions = [
-    "Required components are missing or incomplete",
-    "The solution does not use AI meaningfully",
-    "Ethical guidelines or originality rules are violated",
-    "Submission is made after the deadline"
-  ];
-
-  const intellectualProperty = [
-    "Participants retain full ownership of their intellectual property.",
-    "Organizers may request permission to showcase selected projects for promotional or academic purposes, with due credit."
-  ];
-
-  const acceptanceOfTerms = [
-    "All information provided is accurate",
-    "They agree to abide by challenge rules and jury decisions",
-    "They support the spirit of innovation for sustainability and social good"
+  const requirements = [
+    {
+      title: "File Format",
+      icon: <FileText className="w-6 h-6" />,
+      description: "Presentations must be submitted in PowerPoint format (.ppt or .pptx), with a maximum file size of 10MB. Please ensure all fonts are embedded to prevent formatting issues during evaluation."
+    },
+    {
+      title: "Prototype Demonstration",
+      icon: <Video className="w-6 h-6" />,
+      description: "If a working prototype is available, participants are required to create a 2–3 minute video showcasing the solution's key functionalities and its environmental impact. The video should be uploaded to platforms such as YouTube or Vimeo and the link must be included during the registration process."
+    },
+    {
+      title: "File Naming Convention",
+      icon: <Upload className="w-6 h-6" />,
+      description: "Please name your PowerPoint file using the following convention: TeamName_Institution_ChallengeCategory.pptx",
+      example: "Example: XYZ_UVWUniversity_CarbonTracking.pptx"
+    },
+    {
+      title: "Submission Deadline",
+      icon: <Calendar className="w-6 h-6" />,
+      description: "All presentations must be submitted by September 30, 2026, at 11:59 PM. Late submissions will not be accepted. To avoid last-minute technical issues, teams are advised to submit their entries well before the deadline."
+    }
   ];
 
   return (
@@ -111,37 +92,33 @@ const SubmissionGuidelines = () => {
           </h1>
           <div className="w-24 h-1 bg-gradient-accent mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Teams must submit the following before the deadline for the IntelliTech Hackathon.
+            Participants are required to submit a PowerPoint (PPT) presentation consisting of five slides 
+            that clearly outline their proposed environmental solution.
           </p>
         </div>
 
-        {/* Submission Components */}
+        {/* Slide Structure */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-foreground text-center mb-12">
-            Submission Components
+            Suggested Structure for Presentation Slides
           </h2>
-          <div className="grid gap-8 max-w-6xl mx-auto">
-            {submissionComponents.map((component, index) => (
+          <div className="grid gap-6 max-w-5xl mx-auto">
+            {slideStructure.map((slide, index) => (
               <Card key={index} className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300">
                 <CardHeader className="pb-4">
                   <div className="flex items-center gap-4">
                     <Badge variant="secondary" className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
-                      {component.number}
+                      {slide.number}
                     </Badge>
-                    <div className="w-12 h-12 rounded-lg bg-gradient-hero text-white flex items-center justify-center">
-                      {component.icon}
+                    <div className="w-10 h-10 rounded-lg bg-gradient-hero text-white flex items-center justify-center">
+                      {slide.icon}
                     </div>
-                    <div>
-                      <CardTitle className="text-xl text-foreground">{component.title}</CardTitle>
-                      {component.subtitle && (
-                        <p className="text-sm text-muted-foreground">{component.subtitle}</p>
-                      )}
-                    </div>
+                    <CardTitle className="text-xl text-foreground">{slide.title}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
-                    {component.points.map((point, pointIndex) => (
+                    {slide.points.map((point, pointIndex) => (
                       <li key={pointIndex} className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-earth-green mt-2 flex-shrink-0"></div>
                         <span className="text-foreground leading-relaxed">{point}</span>
@@ -154,220 +131,58 @@ const SubmissionGuidelines = () => {
           </div>
         </div>
 
-        {/* Requirements Grid */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
-          {/* Technical & AI Requirements */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-xl">
-                <Code className="w-6 h-6 text-purple-600" />
-                🤖 Technical & AI Requirements
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{technicalRequirements[0]}</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{technicalRequirements[1]}</span>
-                </li>
-                <ul className="ml-8 space-y-2">
-                  <li className="flex items-start gap-3">
-                    <span className="text-purple-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{technicalRequirements[2]}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-purple-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{technicalRequirements[3]}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-purple-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{technicalRequirements[4]}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-purple-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{technicalRequirements[5]}</span>
-                  </li>
-                </ul>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{technicalRequirements[6]}</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{technicalRequirements[7]}</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-
-          {/* SDG Alignment */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-xl">
-                <Globe className="w-6 h-6 text-earth-green" />
-                🌍 SDG Alignment
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-3">
-                {sdgAlignment.map((req, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-4 h-4 text-earth-green flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-muted-foreground">{req}</span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Ethics, Privacy & Originality */}
+        {/* Additional Guidelines */}
         <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center text-foreground mb-8 flex items-center justify-center gap-3">
-            <Shield className="w-8 h-8 text-red-600" />
-            ⚖️ Ethics, Privacy & Originality
-          </h3>
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card max-w-4xl mx-auto">
-            <CardContent className="p-8">
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{ethicsOriginality[0]}</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{ethicsOriginality[1]}</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{ethicsOriginality[2]}</span>
-                </li>
-                <ul className="ml-8 space-y-2">
-                  <li className="flex items-start gap-3">
-                    <span className="text-red-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{ethicsOriginality[3]}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-red-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{ethicsOriginality[4]}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-red-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{ethicsOriginality[5]}</span>
-                  </li>
-                </ul>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{ethicsOriginality[6]}</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-12">
+            Additional Submission Guidelines
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {requirements.map((req, index) => (
+              <Card key={index} className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300">
+                <CardHeader className="pb-4">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-lg bg-gradient-hero text-white flex items-center justify-center">
+                      {req.icon}
+                    </div>
+                    <CardTitle className="text-xl text-foreground">{req.title}</CardTitle>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed mb-3">
+                    {req.description}
+                  </p>
+                  {req.example && (
+                    <div className="bg-earth-green/10 rounded-lg p-3 mt-3">
+                      <p className="text-earth-green font-medium text-sm">{req.example}</p>
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
 
-        {/* Final Presentation */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center text-foreground mb-8 flex items-center justify-center gap-3">
-            <Video className="w-8 h-8 text-blue-600" />
-            🎤 Final Presentation (Shortlisted Teams)
-          </h3>
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card max-w-4xl mx-auto">
-            <CardContent className="p-8">
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{finalPresentation[0]}</span>
-                </li>
-                <ul className="ml-8 space-y-2">
-                  <li className="flex items-start gap-3">
-                    <span className="text-blue-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{finalPresentation[1]}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-blue-600 mt-0.5">•</span>
-                    <span className="text-muted-foreground text-sm">{finalPresentation[2]}</span>
-                  </li>
-                </ul>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">{finalPresentation[3]}</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Remaining Sections */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
-          {/* Disqualification Conditions */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-xl">
-                <AlertCircle className="w-6 h-6 text-red-600" />
-                🚫 Disqualification Conditions
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-sm text-muted-foreground mb-3">
-                A submission may be disqualified if:
-              </p>
-              <ul className="space-y-3">
-                {disqualificationConditions.map((condition, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <AlertCircle className="w-4 h-4 text-red-600 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-muted-foreground">{condition}</span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-
-          {/* Intellectual Property */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-xl">
-                <Award className="w-6 h-6 text-yellow-600" />
-                📜 Intellectual Property (IP)
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-3">
-                {intellectualProperty.map((item, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-4 h-4 text-yellow-600 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-muted-foreground">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Acceptance of Terms */}
+        {/* Supporting Documentation */}
         <div className="max-w-4xl mx-auto">
           <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card">
             <CardHeader>
               <CardTitle className="text-2xl text-foreground flex items-center gap-3">
-                <CheckCircle className="w-8 h-8 text-primary" />
-                🌟 Acceptance of Terms
+                <FileText className="w-8 h-8 text-earth-green" />
+                Supporting Documentation
               </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                By submitting an entry, participants confirm that:
+                Participants may include up to three supplementary pages in an appendix to provide technical details, 
+                data sources, calculations or diagrams supporting the proposed solution. These materials should be 
+                clearly referenced within the main presentation.
               </p>
-              <ul className="space-y-3">
-                {acceptanceOfTerms.map((term, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground">{term}</span>
-                  </li>
-                ))}
-              </ul>
+              <div className="bg-gradient-hero/10 rounded-lg p-4">
+                <p className="text-foreground font-medium">
+                  💡 Pro Tip: Use the appendix to include detailed technical specifications, 
+                  research data implementation diagrams that support your main presentation.
+                </p>
+              </div>
             </CardContent>
           </Card>
         </div>

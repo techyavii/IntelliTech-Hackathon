@@ -426,7 +426,7 @@ const Judges = () => {
             </h3>
             <p className="text-muted-foreground mb-6">
               Showcase your AI-powered environmental solutions to our distinguished panel of judges 
-              and compete for the £1,750 prize pool.
+              and compete for the $1,750 prize pool.
             </p>
           </div>
         </div>

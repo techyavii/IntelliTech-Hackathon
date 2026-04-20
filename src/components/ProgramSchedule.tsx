@@ -5,25 +5,25 @@ import { Calendar, Clock, Video, Users, Award, AlertCircle } from "lucide-react"
 
 const ProgramSchedule = () => {
   const scheduleInfo = [
-    {
-      title: "Registration & Idea Submission",
-      icon: <Calendar className="w-5 h-5" />,
-      description: "Teams register and submit their initial ideas and solutions."
+   {
+      title: "Virtual Platform",
+      icon: <Video className="w-5 h-5" />,
+      description: "All presentations will be conducted virtually using Zoom."
     },
     {
-      title: "Shortlisting of Teams",
-      icon: <Users className="w-5 h-5" />,
-      description: "Evaluation committee reviews submissions and shortlists teams."
-    },
-    {
-      title: "Hackathon Development Phase",
-      icon: <Clock className="w-5 h-5" />,
-      description: "Shortlisted teams develop their prototypes with expert mentoring."
-    },
-    {
-      title: "Final Presentation & Awards",
+      title: "Two Rounds",
       icon: <Award className="w-5 h-5" />,
-      description: "Teams present their solutions and winners are announced."
+      description: "Selection Round on Day 1 (January 16) and Final Round on Day 2 (January 17)."
+    },
+    {
+      title: "Presentation Time",
+      icon: <Clock className="w-5 h-5" />,
+      description: "Each team will have 10 minutes to present, followed by 2 minutes for Q&A."
+    },
+    {
+      title: "Team Selection",
+      icon: <Users className="w-5 h-5" />,
+      description: "Only teams selected from Day 1 will be invited to present during the Final Round."
     }
   ];
 
@@ -73,7 +73,7 @@ const ProgramSchedule = () => {
               <Badge variant="secondary" className="w-fit mx-auto mb-2">Day 1</Badge>
               <CardTitle className="text-2xl text-foreground flex items-center justify-center gap-3">
                 <Calendar className="w-6 h-6 text-earth-green" />
-                April 11, 2026
+                June 6, 2026
               </CardTitle>
               <p className="text-lg font-semibold text-earth-green">Selection Round</p>
             </CardHeader>
@@ -114,7 +114,7 @@ const ProgramSchedule = () => {
               <Badge variant="secondary" className="w-fit mx-auto mb-2 bg-earth-green text-white">Day 2</Badge>
               <CardTitle className="text-2xl text-foreground flex items-center justify-center gap-3">
                 <Calendar className="w-6 h-6 text-earth-green" />
-                April 12, 2026
+                June 7, 2026
               </CardTitle>
               <p className="text-lg font-semibold text-earth-green">Final Round</p>
             </CardHeader>
@@ -152,104 +152,7 @@ const ProgramSchedule = () => {
           </Card>
         </div>
 
-{/* Hackathon Stages */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 max-w-6xl mx-auto">
-          {/* Stage 1 */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300">
-            <CardHeader className="text-center pb-4">
-              <Badge variant="secondary" className="w-fit mx-auto mb-2">Stage 1</Badge>
-              <CardTitle className="text-xl text-foreground flex items-center justify-center gap-3">
-                <Calendar className="w-6 h-6 text-earth-green" />
-                Registration & Idea Submission
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="text-center">
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Teams register and submit their initial ideas and proposed solutions.
-              </p>
-            </CardContent>
-          </Card>
 
-          {/* Stage 2 */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300">
-            <CardHeader className="text-center pb-4">
-              <Badge variant="secondary" className="w-fit mx-auto mb-2">Stage 2</Badge>
-              <CardTitle className="text-xl text-foreground flex items-center justify-center gap-3">
-                <Users className="w-6 h-6 text-earth-blue" />
-                Shortlisting of Teams
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="text-center">
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                A screening committee evaluates submissions and shortlists teams based on innovation, relevance, and feasibility.
-              </p>
-            </CardContent>
-          </Card>
-
-          {/* Stage 3 */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300">
-            <CardHeader className="text-center pb-4">
-              <Badge variant="secondary" className="w-fit mx-auto mb-2">Stage 3</Badge>
-              <CardTitle className="text-xl text-foreground flex items-center justify-center gap-3">
-                <Clock className="w-6 h-6 text-earth-teal" />
-                Hackathon Development Phase
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="text-center">
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Shortlisted teams participate in the development phase, building prototypes under mentor guidance.
-              </p>
-            </CardContent>
-          </Card>
-
-          {/* Stage 4 */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300">
-            <CardHeader className="text-center pb-4">
-              <Badge variant="secondary" className="w-fit mx-auto mb-2">Stage 4</Badge>
-              <CardTitle className="text-xl text-foreground flex items-center justify-center gap-3">
-                <Users className="w-6 h-6 text-purple-500" />
-                Mentoring Sessions with Experts
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="text-center">
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Teams receive expert mentorship and guidance throughout the development process.
-              </p>
-            </CardContent>
-          </Card>
-
-          {/* Stage 5 */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300">
-            <CardHeader className="text-center pb-4">
-              <Badge variant="secondary" className="w-fit mx-auto mb-2">Stage 5</Badge>
-              <CardTitle className="text-xl text-foreground flex items-center justify-center gap-3">
-                <Award className="w-6 h-6 text-orange-500" />
-                Final Prototype Demonstration
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="text-center">
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Teams present their working prototypes, software applications, or conceptual models.
-              </p>
-            </CardContent>
-          </Card>
-
-          {/* Stage 6 */}
-          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300 ring-2 ring-earth-green/30">
-            <CardHeader className="text-center pb-4">
-              <Badge variant="secondary" className="w-fit mx-auto mb-2 bg-earth-green text-white">Stage 6</Badge>
-              <CardTitle className="text-xl text-foreground flex items-center justify-center gap-3">
-                <Award className="w-6 h-6 text-earth-green" />
-                Jury Evaluation and Awards
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="text-center">
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Final evaluation by jury panel and announcement of winners with awards and recognition.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
 
         {/* Instructions for Presenters */}
         <div className="max-w-4xl mx-auto mb-16">

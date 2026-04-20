@@ -3,30 +3,30 @@ import { Badge } from "@/components/ui/badge";
 import { Trophy, Medal, Crown, Users, Award } from "lucide-react";
 
 const Awards = () => {
-  const grandPrizes = [
+    const grandPrizes = [
     {
       position: "1st Place",
-      title: "IntelliTech Hackathon Winner",
-      prize: "Cash Prize",
-      description: "Top-performing team showcasing exceptional innovation, measurable impact and effective implementation.",
+      title: "Hackathon Winners",
+      prize: "$1,000",
+      description: "Top-performing team showcasing exceptional innovation, measurable impact and effective implementation in cybersecurity, data privacy, compliance, and emerging technologies.",
       icon: <Crown className="w-8 h-8" />,
       gradient: "from-yellow-400 to-orange-500",
       bgGradient: "from-yellow-50 to-orange-50"
     },
     {
       position: "2nd Place", 
-      title: "IntelliTech Hackathon 1st Runner-Up",
-      prize: "Cash Prize",
-      description: "Honouring the team that demonstrates strong performance across all judging criteria and notable contributions.",
+      title: "1st Runner-Up",
+      prize: "$500",
+      description: "Honouring the team that demonstrates strong performance across all judging criteria and notable contributions to cybersecurity, data privacy, compliance, and emerging technologies.",
       icon: <Trophy className="w-8 h-8" />,
       gradient: "from-gray-400 to-gray-600",
       bgGradient: "from-gray-50 to-slate-50"
     },
     {
       position: "3rd Place",
-      title: "IntelliTech Hackathon 2nd Runner-Up", 
-      prize: "Cash Prize",
-      description: "Acknowledging outstanding contributions to innovation with creative and impactful solutions.",
+      title: "2nd Runner-Up", 
+      prize: "$250",
+      description: "Acknowledging outstanding contributions to cybersecurity, data privacy, compliance, and emerging technologie innovation with creative and impactful solutions.",
       icon: <Medal className="w-8 h-8" />,
       gradient: "from-amber-600 to-yellow-700",
       bgGradient: "from-amber-50 to-yellow-50"

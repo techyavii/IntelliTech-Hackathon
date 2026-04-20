@@ -34,12 +34,13 @@ const Advisory = () => {
         </div>
 
         {/* Advisory Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {advisors.map((advisor, index) => (
-            <Card 
-              key={index} 
-              className="bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300 group overflow-hidden"
-            >
+        <div className="flex justify-center">
+          <div className="flex flex-wrap justify-center gap-8 max-w-5xl">
+            {advisors.map((advisor, index) => (
+              <Card
+                key={index}
+                className="w-[280px] bg-white/90 backdrop-blur-sm border-0 shadow-card hover:shadow-earth transition-all duration-300 group overflow-hidden"
+              >
               <CardContent className="p-0">
                 {/* Advisor Photo */}
                 <div className="aspect-square relative overflow-hidden">
@@ -70,6 +71,7 @@ const Advisory = () => {
             </Card>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

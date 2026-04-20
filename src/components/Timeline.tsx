@@ -4,38 +4,40 @@ import { CheckCircle, Clock, Calendar } from "lucide-react";
 const Timeline = () => {
   const events = [
     {
-      date: "To be announced",
-      activity: "Registration & Idea Submission",
+      date: "25 April, 2026",
+      activity: "Registration Opens",
       status: "upcoming",
       icon: <Calendar className="w-5 h-5" />
     },
     {
-      date: "To be announced", 
-      activity: "Shortlisting of Teams",
+      date: "June 5, 2026",
+      activity: "Registration Closes",
       status: "upcoming",
       icon: <Clock className="w-5 h-5" />
     },
     {
-      date: "06-07th June 2026",
-      activity: "Hackathon Development Phase",
+      date: "June 6, 2026",
+      activity: "Selection Round (Shortlisting of Teams)",
       status: "upcoming", 
       icon: <CheckCircle className="w-5 h-5" />
     },
     {
-      date: "06-07th June 2026",
-      activity: "Mentoring Sessions with Experts",
+      date: "June 6, 2026 (midnight)",
+      activity: "Notification of Shortlisted Teams For Final Round",
       status: "upcoming",
       icon: <CheckCircle className="w-5 h-5" />
     },
     {
-      date: "06-07th June 2026",
-      activity: "Final Prototype Demonstration",
+      date: "June 6-7, 2026",
+      // time: "9:00 AM to 11:30 AM",
+      activity: "IntelliTechHack 2026 Hackathon",
       status: "main-event",
       icon: <Calendar className="w-5 h-5" />
     },
     {
-      date: "06-07th June 2026",
-      activity: "Jury Evaluation and Awards",
+      date: "June 7, 2026",
+      // time: "7:00 PM",
+      activity: "Announcement of Winners, Certificate and Prize Distribution",
       status: "main-event",
       icon: <CheckCircle className="w-5 h-5" />
     }

@@ -6,82 +6,88 @@ import { Mail } from "lucide-react";
 
 const JudgeAppointmentCriteriaPage = () => {
 
-  const selectionCriteria = [
+  const sections = [
     {
-      number: "01",
-      title: "Professional Expertise",
-      icon: "🎓",
-      points: [
-        "Artificial Intelligence, Machine Learning, Data Science or related fields",
-        "Sustainability, climate science, healthcare, education, smart cities or public policy",
-        "Industry innovation, startups, research or technology leadership"
+      icon: "🎯",
+      title: "Eligibility Criteria",
+      content: [
+        "Judges are selected from diverse backgrounds, including industry, academia, startups, and research organizations. Candidates should meet one or more of the following:",
+        "• Industry Experts: Minimum 5–10 years of experience in AI, software development, data science, or related domains",
+        "• Academicians/Researchers: PhD or significant research contributions in emerging technologies",
+        "• Startup Founders/Leaders: Proven track record in building scalable tech products",
+        "• Domain Specialists: Expertise in sectors aligned with hackathon themes (e.g., healthcare, fintech, sustainability)"
       ]
     },
     {
-      number: "02",
-      title: "SDG & Impact Knowledge",
-      icon: "🌍",
-      points: [
-        "Strong understanding of the United Nations Sustainable Development Goals (SDGs)",
-        "Experience in applying technology for social, environmental or economic impact",
-        "Ability to assess real-world feasibility and long-term sustainability of solutions"
-      ]
-    },
-    {
-      number: "03",
-      title: "Evaluation & Mentorship Experience",
       icon: "🧠",
-      points: [
-        "Prior experience as a judge, reviewer, mentor or evaluator in challenges, innovation challenges, research forums, or startup competitions",
-        "Ability to provide constructive, unbiased and actionable feedback to participants"
+      title: "Core Competencies Required",
+      content: [
+        "Judges are expected to demonstrate:",
+        "• Strong technical knowledge in AI and emerging technologies",
+        "• Understanding of real-world problem-solving and innovation",
+        "• Ability to evaluate scalability and feasibility of solutions",
+        "• Experience in mentoring, evaluating, or leading teams",
+        "• Ethical judgment and unbiased decision-making"
       ]
     },
     {
-      number: "04",
-      title: "Ethical & Responsible AI Commitment",
       icon: "⚖️",
-      points: [
-        "Demonstrated commitment to ethical, responsible and transparent AI practices",
-        "Awareness of AI risks such as bias, data privacy and misuse",
-        "Willingness to evaluate solutions through an ethical and societal lens"
+      title: "Selection Parameters",
+      content: [
+        "Candidates are shortlisted based on:",
+        "• Professional experience and achievements",
+        "• Prior judging/mentoring experience in hackathons or competitions",
+        "• Industry recognition (awards, publications, patents)",
+        "• Alignment with hackathon themes and objectives"
       ]
     },
     {
-      number: "05",
-      title: "Independence & Integrity",
+      icon: "🔍",
+      title: "Diversity & Representation",
+      content: [
+        "We ensure a balanced and inclusive jury panel by incorporating:",
+        "• Industry and academic representation",
+        "• Cross-domain expertise",
+        "• Gender diversity",
+        "• Mix of senior leaders and emerging innovators"
+      ]
+    },
+    {
+      icon: "📋",
+      title: "Roles & Responsibilities",
+      content: [
+        "Selected judges will:",
+        "• Evaluate team submissions across all stages",
+        "• Participate in mentor reviews and final judging rounds",
+        "• Provide constructive feedback to participants",
+        "• Ensure adherence to evaluation guidelines and fairness"
+      ]
+    },
+    {
       icon: "🤝",
-      points: [
-        "Judges must declare any conflict of interest before the evaluation process",
-        "Must not evaluate submissions from teams with whom they have a direct professional or personal relationship",
-        "Commitment to maintaining confidentiality and impartiality throughout the challenge"
+      title: "Code of Conduct",
+      content: [
+        "All judges must:",
+        "• Maintain confidentiality of participant ideas",
+        "• Declare any conflict of interest",
+        "• Follow a fair, unbiased, and transparent evaluation process"
       ]
     },
     {
-      number: "06",
-      title: "Diversity & Inclusion",
-      icon: "🌐",
-      points: [
-        "The judging panel will aim for diversity in geography, gender, domain expertise and professional background",
-        "Judges should support inclusive innovation and equitable evaluation"
+      icon: "🏆",
+      title: "Final Selection",
+      content: [
+        "Judges are appointed by the organizing committee based on:",
+        "• Merit and expertise",
+        "• Availability during the event",
+        "• Alignment with event vision and values"
       ]
     },
     {
-      number: "07",
-      title: "Availability & Commitment",
-      icon: "⏱️",
-      points: [
-        "Judges must be available during designated evaluation periods",
-        "Willingness to participate in review sessions, deliberations and final evaluations",
-        "Commitment to follow the challenge's evaluation guidelines and timelines"
-      ]
-    },
-    {
-      number: "08",
-      title: "Alignment with Challenge Vision",
       icon: "🌟",
-      points: [
-        "Strong alignment with the mission and vision of IntelliTech Hackathon",
-        "Passion for leveraging AI as a force for sustainability and global good"
+      title: "Our Commitment",
+      content: [
+        "We aim to bring together a credible, experienced, and diverse panel of judges to ensure that the most innovative and impactful solutions are recognized and rewarded."
       ]
     }
   ];
@@ -108,21 +114,7 @@ const JudgeAppointmentCriteriaPage = () => {
                 IntelliTech Hackathon: Engineering Smart Solutions
               </p>
               <p className="text-lg md:text-xl opacity-90 max-w-4xl mx-auto leading-relaxed">
-                Judges for the IntelliTech Hackathon are selected to ensure fairness, expertise, diversity and alignment with the mission of advancing intelligent technologies for real-world problem solving.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Introduction */}
-        <section className="py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Our IntelliTech Hackathon on 06-07th June 2026 represents the cutting edge of intelligent systems research and development. We've meticulously curated a judging panel comprising world-class experts in AI, IoT, smart manufacturing, and emerging technologies.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Each judge brings decades of experience in evaluating breakthrough solutions that push the boundaries of intelligent technologies while maintaining peak technological performance. They understand the nuanced challenges of deploying intelligent systems for real-world impact at scale.
+                At IntelliTech Hackathon, we appoint judges through a rigorous and merit-based selection process to ensure fairness, credibility, and high-quality evaluation.
               </p>
             </div>
           </div>
@@ -133,38 +125,27 @@ const JudgeAppointmentCriteriaPage = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Selection Criteria
+                Judge Appointment Criteria
               </h2>
               <div className="w-24 h-1 bg-gradient-accent mx-auto mb-8"></div>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Our rigorous standards ensure only the most qualified experts evaluate your innovations
-              </p>
             </div>
 
-            <div className="space-y-8">
-              {selectionCriteria.map((criteria, index) => (
+            <div className="space-y-12 max-w-4xl mx-auto">
+              {sections.map((section, index) => (
                 <Card key={index} className="bg-white/90 backdrop-blur-sm border-0 shadow-card">
                   <CardContent className="p-8">
-                    <div className="flex items-start space-x-6">
-                      <div className="flex items-center space-x-3">
-                        <Badge variant="secondary" className="text-2xl font-bold px-4 py-2">
-                          {criteria.number}
-                        </Badge>
-                        <span className="text-3xl">{criteria.icon}</span>
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-xl font-bold text-foreground mb-4">
-                          {criteria.title}
-                        </h3>
-                        <ul className="space-y-2">
-                          {criteria.points.map((point, pointIndex) => (
-                            <li key={pointIndex} className="text-muted-foreground flex items-start">
-                              <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                              {point}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
+                    <div className="flex items-start space-x-4 mb-4">
+                      <span className="text-4xl">{section.icon}</span>
+                      <h3 className="text-2xl font-bold text-foreground">
+                        {section.title}
+                      </h3>
+                    </div>
+                    <div className="space-y-2">
+                      {section.content.map((point, pointIndex) => (
+                        <p key={pointIndex} className="text-muted-foreground leading-relaxed">
+                          {point}
+                        </p>
+                      ))}
                     </div>
                   </CardContent>
                 </Card>
