@@ -126,7 +126,7 @@ const Hero = () => {
               variant="hero" 
               size="xl" 
               className="min-w-48"
-              onClick={() => window.open("https://forms.gle/7mTSR8f8cvyeuQvU6", "_blank")}
+              onClick={() => window.open("https://forms.gle/6AvMpkxerf78EghG9", "_blank")}
               // disabled
             >
               Register Your Team

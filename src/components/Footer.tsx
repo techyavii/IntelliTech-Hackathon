@@ -55,7 +55,7 @@ const Footer = () => {
               <Button 
                 variant="default" 
                 className="border-white/30 text-white hover:bg-white/10 " 
-                onClick={() => window.open("https://forms.gle/7mTSR8f8cvyeuQvU6", "_blank")}
+                onClick={() => window.open("https://forms.gle/6AvMpkxerf78EghG9", "_blank")}
                 // opacity-60 cursor-not-allowed
                 // disabled
               >
