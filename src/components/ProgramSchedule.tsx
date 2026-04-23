@@ -189,8 +189,8 @@ const ProgramSchedule = () => {
                 📅 Important Dates
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Registration Opens: To be announced<br/>
-                Idea Submission Deadline: To be announced<br/>
+                Registration Opens: 20th April 2026<br/>
+                Idea Submission Deadline: 25th May 2026<br/>
                 Hackathon Dates: 06-07th June 2026<br/>
                 Final Presentation & Awards: 06-07th June 2026
               </p>
