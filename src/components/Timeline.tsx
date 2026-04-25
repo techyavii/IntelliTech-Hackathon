@@ -126,7 +126,7 @@ const Timeline = () => {
             Don't Miss Out!
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Registration opens on February 1st and closes on March 15th. 
+            Registration opens on 20th April 2026 and closes on 25th May 2026. 
             Make sure to register early to secure your spot in this amazing challenge!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
