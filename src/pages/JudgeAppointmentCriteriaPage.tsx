@@ -174,10 +174,10 @@ const JudgeAppointmentCriteriaPage = () => {
                     <div className="flex items-center justify-center space-x-2">
                       <Mail className="w-5 h-5" />
                       <a
-                        href="mailto:info@intellitechhackathon.com"
+                        href="mailto:ai@intellitechhack.com"
                         className="text-lg hover:underline"
                       >
-                        info@intellitechhackathon.com
+                        ai@intellitechhack.com
                       </a>
                     </div>
                   </div>
