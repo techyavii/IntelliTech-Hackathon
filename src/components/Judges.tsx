@@ -11,6 +11,42 @@ const Judges = () => {
     "expertise": "Cloud Security, Cybersecurity, Privacy",
     "linkedin": "",
     "email": "Kanagala.ashok@ieee.org",
+  },
+  {
+    "name": "Jayesh Radadiya",
+    "affiliation": "Electrical Engineer, Meta",
+    "location": "USA",
+    "image": "/judges/Jayesh_Radadiya.jpeg",
+    "expertise": "Electrical Engineering, Biomedical Engineering, Research & Development",
+    "linkedin": "https://www.linkedin.com/in/jayeshee/",
+    "email": "jayesh.radadiya1959@gmail.com"
+  },
+  {
+    "name": "Ravindrakumar Prajapati",
+    "affiliation": "Sr Business Systems Analyst, Lead Solutions Architect, Relanto INC",
+    "location": "USA",
+    "image": "/judges/Ravindrakumar_Prajapati.jpeg",
+    "expertise": "Anaplan Solutions Architecture",
+    "linkedin": "https://www.linkedin.com/in/ravinmp/",
+    "email": "prajapati.ravindra@outlook.com"
+  },
+  {
+    "name": "Dhavalkumar Thakar",
+    "affiliation": "Senior Systems and Software Engineer, Capgemini",
+    "location": "USA",
+    "image": "/judges/Dhavalkumar_Thakar.jpeg",
+    "expertise": "Healthcare Systems Engineering",
+    "linkedin": "https://www.linkedin.com/in/dhavalthakar91",
+    "email": "d10thakar@gmail.com"
+  },
+  {
+    "name": "Ketankumar Patel",
+    "affiliation": "Senior Software Engineer, Anaqua Inc",
+    "location": "USA",
+    "image": "/judges/Ketankumar_Patel.jpeg",
+    "expertise": "AI, Healthcare Analytics, Business Intelligence",
+    "linkedin": "https://www.linkedin.com/in/ketanerp",
+    "email": "kdp2885@gmail.com"
   }
 ]
   return (
