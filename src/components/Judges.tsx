@@ -47,6 +47,24 @@ const Judges = () => {
     "expertise": "AI, Healthcare Analytics, Business Intelligence",
     "linkedin": "https://www.linkedin.com/in/ketanerp",
     "email": "kdp2885@gmail.com"
+  },
+  {
+    "name": "Neeraj Bhargav",
+    "affiliation": "Cloud Infrastructure Engineer 4, Indeed Inc",
+    "location": "USA",
+    "image": "/judges/Neeraj_Bhargav.jpeg",
+    "expertise": "AI ML, Streaming, Data Engineering",
+    "linkedin": "https://www.linkedin.com/in/neeraj-bhargav-964285122",
+    "email": "bhargav6211@gmail.com"
+  },
+  {
+    "name": "Nitin Sharma",
+    "affiliation": "Senior Principal Enterprise Architect, Perforce Software Inc",
+    "location": "USA",
+    "image": "/judges/Nitin_Sharma.jpeg",
+    "expertise": "Data Virtualization, Compliance",
+    "linkedin": "https://www.linkedin.com/in/nitinsharma85/",
+    "email": "nitinsharma85@gmail.com"
   }
 ]
   return (
