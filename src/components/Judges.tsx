@@ -58,13 +58,13 @@ const Judges = () => {
     "email": "bhargav6211@gmail.com"
   },
   {
-    "name": "Nitin Sharma",
-    "affiliation": "Senior Principal Enterprise Architect, Perforce Software Inc",
+    "name": "Prabhu Rengaramanujam",
+    "affiliation": "Senior Engineer, Guidewire Software, Inc",
     "location": "USA",
-    "image": "/judges/Nitin_Sharma.jpeg",
-    "expertise": "Data Virtualization, Compliance",
-    "linkedin": "https://www.linkedin.com/in/nitinsharma85/",
-    "email": "nitinsharma85@gmail.com"
+    "image": "/judges/Prabhu_Rengaramanujam.png",
+    "expertise": "AI Strategy, Digital Transformation",
+    "linkedin": "https://www.linkedin.com/in/prabhu-rengaramanujam-5a7a171a/",
+    "email": "prabhurenga@gmail.com"
   }
 ]
   return (
