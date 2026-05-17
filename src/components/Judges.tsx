@@ -65,6 +65,42 @@ const Judges = () => {
     "expertise": "AI Strategy, Digital Transformation",
     "linkedin": "https://www.linkedin.com/in/prabhu-rengaramanujam-5a7a171a/",
     "email": "prabhurenga@gmail.com"
+  },
+   {
+    "name": "Abhilash Koka",
+    "affiliation": "Technical Manager, Cognizant Technology Solutions",
+    "location": "USA",
+    "image": "/judges/Abhilash_Koka.jpeg",
+    "expertise": "Cybersecurity, SRE",
+    "linkedin": "https://www.linkedin.com/in/abhilash-koka-88a20a71/",
+    "email": "abhimca07@gmail.com"
+  },
+  {
+    "name": "Raghu Praneeth Akula",
+    "affiliation": "EPM Cloud Architect, CSAA Insurance Services",
+    "location": "USA",
+    "image": "/judges/Raghu_Praneeth_Akula.jpeg",
+    "expertise": "EPM Cloud, Agentic AI",
+    "linkedin": "",
+    "email": "epmofficialuse@gmail.com"
+  },
+  {
+    "name": "Kumaraswamy Nekkalapudi",
+    "affiliation": "Lead Java Developer, Relycom Inc",
+    "location": "USA",
+    "image": "/judges/Kumaraswamy_Nekkalapudi.jpeg",
+    "expertise": "Java Microservices, AWS Kubernetes",
+    "linkedin": "https://linkedin.com/in/kumar-n-0bab24127",
+    "email": "kumarnekkalapudi09@gmail.com"
+  },
+  {
+    "name": "Nitin Sharma",
+    "affiliation": "Senior Principal Enterprise Architect, Perforce Software Inc",
+    "location": "USA",
+    "image": "/judges/Nitin_Sharma.jpeg",
+    "expertise": "Data Virtualization, Compliance",
+    "linkedin": "https://www.linkedin.com/in/nitinsharma85/",
+    "email": "nitinsharma85@gmail.com"
   }
 ]
   return (
