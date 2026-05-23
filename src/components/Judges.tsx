@@ -101,6 +101,42 @@ const Judges = () => {
     "expertise": "Data Virtualization, Compliance",
     "linkedin": "https://www.linkedin.com/in/nitinsharma85/",
     "email": "nitinsharma85@gmail.com"
+  },
+  {
+    "name": "Praveen Hegde",
+    "affiliation": "Associate Director - Emerging Commercial Platforms, Verizon, USA",
+    "location": "USA",
+    "image": "/judges/Praveen_Hegde.jpeg",
+    "expertise": "Telecommunications, AI/ML, Cloud Computing",
+    "linkedin": "https://www.linkedin.com/in/praveenmhegde/",
+    "email": "praveen.m.hegde@gmail.com"
+  },
+  {
+    "name": "Partha Sarathi Reddy Pedda Muntala",
+    "affiliation": "Software Engineer, Cisco Systems, Inc",
+    "location": "USA",
+    "image": "/judges/Partha_Sarathi_Reddy_Pedda_Muntala.jpeg",
+    "expertise": "Oracle Cloud ERP, AI, ML",
+    "linkedin": "https://www.linkedin.com/in/partha-sarathi-reddy-96a4a44b/",
+    "email": "parthasarathireddypeddamuntala@gmail.com"
+  },
+  {
+    "name": "Sandeep Kumar Jangam",
+    "affiliation": "Lead Consultant, Infosys Limited",
+    "location": "India",
+    "image": "/judges/Sandeep_Kumar_Jangam.jpeg",
+    "expertise": "Enterprise Integration, API Connectivity, Middleware",
+    "linkedin": "https://www.linkedin.com/in/sandeep-kumar-j-60202323",
+    "email": "jsandeepkumar2121@gmail.com"
+  },
+  {
+    "name": "Nagireddy Karri",
+    "affiliation": "Senior Software Engineer, Red Hat",
+    "location": "USA",
+    "image": "/judges/Nagireddy_Karri.jpeg",
+    "expertise": "AI, ML, Cloud Database Management",
+    "linkedin": "https://www.linkedin.com/in/nagireddy-karri-a13a7719/",
+    "email": "Nagireddy.karri@gmail.com"
   }
 ]
   return (
