@@ -90,7 +90,7 @@ const ProgramSchedule = () => {
                 disabled
                 onClick={() =>
                   window.open(
-                    "https://docs.google.com/spreadsheets/d/1KuGtb5cP3iOBgM5Ad5Zmlw5gRPLyXkoXiAlSuHe4tMM/edit?usp=sharing",
+                    "https://drive.google.com/file/d/1P4AIFHR1wexwyy2qXWh91KrOXdwnBBV5/view?usp=sharing",
                     "_blank"
                   )
                 }
@@ -99,8 +99,7 @@ const ProgramSchedule = () => {
               </Button> 
               <Button
                 className="w-full"
-                onClick={() => window.open("https://us06web.zoom.us/j/88289871936?pwd=XmBu9Gn6t0fgOoH0AwEEkQ8bt6s443.1", "_blank")}
-                disabled
+                onClick={() => window.open("https://us06web.zoom.us/j/88068942432?pwd=G9bKCay7JupAbLtaJ7i3oZJ7PT3Mlu.1", "_blank")}
               >
                 <Video className="w-4 h-4 mr-2" />
                 Join Session
