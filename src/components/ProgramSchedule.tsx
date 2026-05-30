@@ -87,7 +87,6 @@ const ProgramSchedule = () => {
               </div>
               <Button
                 className="w-full py-6 mb-4 font-bold text-lg"
-                disabled
                 onClick={() =>
                   window.open(
                     "https://drive.google.com/file/d/1P4AIFHR1wexwyy2qXWh91KrOXdwnBBV5/view?usp=sharing",
