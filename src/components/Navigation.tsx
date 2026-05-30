@@ -126,14 +126,14 @@ const Navigation = () => {
                 variant="earth"
                 size="sm"
                 onClick={() => window.open("https://forms.gle/6AvMpkxerf78EghG9", "_blank")}
-                // disabled
-                // className="opacity-60 cursor-not-allowed"
+                disabled
+                className="opacity-60 cursor-not-allowed"
               >
                 Register Now
               </Button>
-              {/* <div className="absolute -top-2 -right-2 bg-red-500 text-white font-bold px-2 py-0.5 rounded-full shadow-lg text-xs animate-pulse">
+              <div className="absolute -top-2 -right-2 bg-red-500 text-white font-bold px-2 py-0.5 rounded-full shadow-lg text-xs animate-pulse">
                 Closed
-              </div> */}
+              </div>
             </div>
           </div>
 
@@ -207,13 +207,13 @@ const Navigation = () => {
                      onClick={() => window.open("https://forms.gle/6AvMpkxerf78EghG9", "_blank")}
 
                     opacity-60 cursor-not-allowed
-                    // disabled
+                    disabled
                   >
                     Register Now
                   </Button>
-                  {/* <div className="absolute -top-2 -right-2 bg-red-500 text-white font-bold px-2 py-0.5 rounded-full shadow-lg text-xs animate-pulse">
+                  <div className="absolute -top-2 -right-2 bg-red-500 text-white font-bold px-2 py-0.5 rounded-full shadow-lg text-xs animate-pulse">
                     Closed
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
