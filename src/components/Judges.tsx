@@ -137,7 +137,43 @@ const Judges = () => {
     "expertise": "AI, ML, Cloud Database Management",
     "linkedin": "https://www.linkedin.com/in/nagireddy-karri-a13a7719/",
     "email": "Nagireddy.karri@gmail.com"
-  }
+  },
+  {
+  "name": "Somesh Nagalla",
+  "affiliation": "Sr Software Engineer, 7-Eleven",
+  "location": "USA",
+  "image": "/judges/Somesh_Nagalla.jpeg",
+  "expertise": "AI, ML, Data Analytics",
+  "linkedin": "https://www.linkedin.com/in/somesh-n-ops",
+  "email": "someshnagalla@gmail.com"
+},
+{
+  "name": "Shreya Hegde",
+  "affiliation": "Sr Product Manager Tech, Amazon",
+  "location": "USA",
+  "image": "/judges/Shreya_Hegde.jpeg",
+  "expertise": "Digital Twin, Simulation, AI Compliance, IoT",
+  "linkedin": "https://www.linkedin.com/in/shreya-hegde-25029016",
+  "email": "shreyahegde84@gmail.com"
+},
+{
+  "name": "Ravindra Bhat Gopalakrishna",
+  "affiliation": "Sr Principal Software Engineer, Yahoo",
+  "location": "USA",
+  "image": "/judges/Ravindra_Bhat_Gopalakrishna.jpeg",
+  "expertise": "Distributed Systems, Cloud Strategy",
+  "linkedin": "https://www.linkedin.com/in/ravindrabg",
+  "email": "rbhat4312@gmail.com"
+},
+{
+  "name": "Santhosh Reddy BasiReddy",
+  "affiliation": "Senior Salesforce Lead Architect, USAA",
+  "location": "USA",
+  "image": "/judges/Santhosh_Reddy_BasiReddy.jpeg",
+  "expertise": "Enterprise Architecture, AI Governance, Generative AI, Risk Management",
+  "linkedin": "https://www.linkedin.com/in/santhosh-reddy-basireddy-077005149",
+  "email": "santhureddy245@gmail.com"
+}
 ]
   return (
     <section id="judges" className="py-20 bg-gradient-subtle">
