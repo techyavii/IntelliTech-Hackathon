@@ -14,7 +14,7 @@ const judgeAwards = [
   },
   { 
     title: "Impact Champion Award", 
-    description: "For exceptional commitment to assessing solutions that drive meaningful social, environmental and SDG-aligned impact.",
+    description: "For exceptional commitment to assessing solutions that drive meaningful social, environmental impact.",
     icon: "🌍"
   },
   { 

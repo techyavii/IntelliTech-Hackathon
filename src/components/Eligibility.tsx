@@ -45,8 +45,7 @@ const Eligibility = () => {
     "Natural Language Processing (NLP)",
     "Computer Vision",
     "Predictive Analytics",
-    "Reinforcement Learning",
-    "Projects must align with at least one UN SDG specified in the hackathon thematic tracks."
+    "Reinforcement Learning"
   ];
 
   const originalityEthics = [
@@ -58,7 +57,7 @@ const Eligibility = () => {
 
   const submissionReadiness = [
     "A working prototype or proof-of-concept (PoC)",
-    "A brief project description, including problem statement, AI approach and SDG alignment",
+    "A brief project description, including problem statement, AI approach",
     "Impact metrics or expected outcomes",
     "A demo video or live demonstration (if required)"
   ];
