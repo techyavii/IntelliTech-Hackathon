@@ -22,7 +22,7 @@ const ChallengeRequirementsPage = () => {
       number: 1,
       title: "SDG Alignment",
       icon: <Globe className="w-6 h-6" />,
-      description: "Each submission must address at least one United Nations Sustainable Development Goal (SDG) from the challenge tracks.",
+      description: "Each submission must address at least one United Nations Sustainable Development Goal (SDG) from the hackathon tracks.",
       points: [
         "The chosen SDG(s)",
         "The specific problem being addressed",
@@ -123,10 +123,10 @@ const ChallengeRequirementsPage = () => {
       number: 9,
       title: "Originality & Compliance",
       icon: <AlertCircle className="w-6 h-6" />,
-      description: "Submissions must be original and developed specifically for this challenge.",
+      description: "Submissions must be original and developed specifically for this hackathon.",
       points: [
         "Reuse of previously submitted or commercial products is not permitted.",
-        "Any violation of challenge rules or ethical guidelines may result in disqualification."
+        "Any violation of hackathon rules or ethical guidelines may result in disqualification."
       ]
     },
     {
@@ -140,7 +140,7 @@ const ChallengeRequirementsPage = () => {
     },
     {
       number: 11,
-      title: "Commitment to Challenge Values",
+      title: "Commitment to Hackathon Values",
       icon: <CheckCircle className="w-6 h-6" />,
       description: "By participating, teams commit to:",
       points: [
@@ -160,7 +160,7 @@ const ChallengeRequirementsPage = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            📌 Challenge Requirements
+            📌 Hackathon Requirements
           </h1>
           <div className="w-24 h-1 bg-gradient-accent mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-4">
@@ -214,7 +214,7 @@ const ChallengeRequirementsPage = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                By the end of the challenge, participants will have:
+                By the end of the hackathon, participants will have:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
