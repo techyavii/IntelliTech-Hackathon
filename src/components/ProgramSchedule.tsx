@@ -13,7 +13,7 @@ const ProgramSchedule = () => {
     {
       title: "Two Rounds",
       icon: <Award className="w-5 h-5" />,
-      description: "Selection Round on Day 1 (January 16) and Final Round on Day 2 (January 17)."
+      description: "Selection Round on Day 1 (June 6) and Final Round on Day 2 (June 7)."
     },
     {
       title: "Presentation Time",
