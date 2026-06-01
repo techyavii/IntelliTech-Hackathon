@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 
 const Eligibility = () => {
   const generalEligibility = [
-    "The challenge is open to participants worldwide.",
+    "The hackathon is open to participants worldwide.",
     "Individuals must be 18 years or older at the time of registration.",
     "Participants must comply with all local laws and institutional policies."
   ];
@@ -46,11 +46,11 @@ const Eligibility = () => {
     "Computer Vision",
     "Predictive Analytics",
     "Reinforcement Learning",
-    "Projects must align with at least one UN SDG specified in the challenge thematic tracks."
+    "Projects must align with at least one UN SDG specified in the hackathon thematic tracks."
   ];
 
   const originalityEthics = [
-    "All submissions must be original work developed specifically for this challenge.",
+    "All submissions must be original work developed specifically for this hackathon.",
     "Use of open-source datasets, frameworks and APIs is permitted with proper attribution.",
     "Plagiarism, unethical AI practices or misuse of data will result in immediate disqualification.",
     "Solutions must adhere to responsible and ethical AI principles, including fairness, transparency and privacy."
@@ -65,12 +65,12 @@ const Eligibility = () => {
 
   const disqualificationClause = [
     "Verify participant eligibility at any stage",
-    "Disqualify entries that violate the challenge rules or ethical guidelines",
+    "Disqualify entries that violate the hackathon rules or ethical guidelines",
     "Make final decisions on eligibility-related matters"
   ];
 
   const commitment = [
-    "Follow all challenge rules and timelines",
+    "Follow all hackathon rules and timelines",
     "Participate in evaluations, demos and presentations",
     "Support the spirit of innovation for sustainability and social good"
   ];
@@ -121,7 +121,7 @@ const Eligibility = () => {
           <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-card">
             <CardContent className="p-8">
               <p className="text-muted-foreground mb-4">
-                The challenge welcomes participants from diverse backgrounds, including:
+                The hackathon welcomes participants from diverse backgrounds, including:
               </p>
               <ul className="space-y-3">
                 {whoCanParticipate.map((participant, index) => (

@@ -72,7 +72,7 @@ const SubmissionGuidelines = () => {
     {
       title: "File Naming Convention",
       icon: <Upload className="w-6 h-6" />,
-      description: "Please name your PowerPoint file using the following convention: TeamName_Institution_ChallengeCategory.pptx",
+      description: "Please name your PowerPoint file using the following convention: TeamName_Institution_HackathonCategory.pptx",
       example: "Example: XYZ_UVWUniversity_CarbonTracking.pptx"
     },
     {

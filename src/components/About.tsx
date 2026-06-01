@@ -38,7 +38,7 @@ const About = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-accent mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-           The IntelliTech Hackathon: Engineering Smart Solutions is a dynamic innovation challenge designed to bring together students, developers, engineers, researchers, and innovators to solve real-world problems using intelligent technologies.
+           The IntelliTech Hackathon: Engineering Smart Solutions is a dynamic innovation hackathon designed to bring together students, developers, engineers, researchers, and innovators to solve real-world problems using intelligent technologies.
           </p>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             This hackathon aims to foster creativity, collaboration, and cutting-edge problem solving by encouraging participants to develop AI-driven, data-driven, and intelligent system-based solutions that can transform industries and society. Participants will work in teams to conceptualize, design, and prototype solutions within a limited time frame while being mentored by experts from academia and industry.

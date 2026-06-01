@@ -96,7 +96,7 @@ const EvaluationProcessPage = () => {
       points: [
         "Winners and special category awardees will be announced during the closing ceremony.",
         "Selected projects may be:",
-        "Featured on the official challenge platform",
+        "Featured on the official hackathon platform",
         "Recommended for incubation, mentorship or pilot deployment",
         "Invited for publications, showcases or collaborations"
       ]
@@ -141,7 +141,7 @@ const EvaluationProcessPage = () => {
           </p>
           
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            The evaluation process is designed to ensure fairness, transparency and alignment with the challenge's mission of leveraging AI for sustainable development and global impact.
+            The evaluation process is designed to ensure fairness, transparency and alignment with the hackathon's mission of leveraging AI for sustainable development and global impact.
           </p>
         </div>
 

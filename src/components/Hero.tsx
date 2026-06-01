@@ -68,7 +68,7 @@ const Hero = () => {
             About the Hackathon
           </h2>
           <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed opacity-90">
-            The IntelliTech Hackathon: Engineering Smart Solutions is a dynamic innovation challenge designed to bring together students, developers, engineers, researchers, and innovators to solve real-world problems using intelligent technologies.
+            The IntelliTech Hackathon: Engineering Smart Solutions is a dynamic innovation hackathon designed to bring together students, developers, engineers, researchers, and innovators to solve real-world problems using intelligent technologies.
           </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed opacity-90">
             This hackathon aims to foster creativity, collaboration, and cutting-edge problem solving by encouraging participants to develop AI-driven, data-driven, and intelligent system-based solutions that can transform industries and society.
