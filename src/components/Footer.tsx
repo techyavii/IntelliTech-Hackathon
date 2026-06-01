@@ -49,7 +49,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-white/90 leading-relaxed mb-6 max-w-md">
-              Step into a 48-hour innovation sprint where students, developers, and sustainability enthusiasts come together to design and build impactful tech solutions. Collaborate, create, and tackle real-world challenges aligned with the United Nations Sustainable Development Goals (SDGs)—turning ideas into meaningful change.
+              Step into a 48-hour innovation challenge where bright minds come together to engineer intelligent solutions for real-world problems. Collaborate with students, developers, engineers, researchers, and innovators to build AI-powered, data-driven, and smart technology applications that address industry and societal challenges. Transform ideas into impactful innovations through creativity, teamwork, and cutting-edge problem-solving.
             </p>
             <div className="relative inline-block">
               <Button 
