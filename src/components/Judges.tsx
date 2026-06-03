@@ -173,6 +173,15 @@ const Judges = () => {
   "expertise": "Enterprise Architecture, AI Governance, Generative AI, Risk Management",
   "linkedin": "https://www.linkedin.com/in/santhosh-reddy-basireddy-077005149",
   "email": "santhureddy245@gmail.com"
+},
+{
+  "name": "Tripatjeet Singh",
+  "affiliation": "Senior Cloud Engineer, UMB Bank",
+  "location": "USA",
+  "image": "/judges/Tripatjeet_Singh.jpeg",
+  "expertise": "Cloud Architecture, Banking Technology, AI/ML",
+  "linkedin": "https://www.linkedin.com/in/tripatjeet-singh-71626",
+  "email": "tripatlives@gmail.com"
 }
 ]
   return (
