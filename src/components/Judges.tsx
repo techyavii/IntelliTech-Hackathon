@@ -182,6 +182,42 @@ const Judges = () => {
   "expertise": "Cloud Architecture, Banking Technology, AI/ML",
   "linkedin": "https://www.linkedin.com/in/tripatjeet-singh-71626",
   "email": "tripatlives@gmail.com"
+},
+{
+  "name": "Saravana Kumar Murugesan",
+  "affiliation": "Cloud Security Manager, ALIS Software LLC",
+  "location": "USA",
+  "image": "/judges/Saravana_Kumar_Murugesan.jpeg",
+  "expertise": "Cybersecurity, AI Governance, Cloud Security",
+  "linkedin": "",
+  "email": "msaravanakumar25@gmail.com"
+},
+{
+  "name": "Sathish Kaniganahalli Ramareddy",
+  "affiliation": "Vice President, Northern Trust Bank",
+  "location": "USA",
+  "image": "/judges/Sathish_Ramareddy.jpeg",
+  "expertise": "Data Engineering, Data Science, AI",
+  "linkedin": "https://www.linkedin.com/in/sathish-ramareddy/",
+  "email": "reachsathishramareddy@gmail.com"
+},
+{
+  "name": "Dr. Ohmini Krishnamurthy Rajendran",
+  "affiliation": "Consultant Radiologist & Clinical Researcher, Kempegowda Institute of Medical Sciences Hospital & Research Centre",
+  "location": "India",
+  "image": "/judges/Dr_Ohmini_Krishnamurthy_Rajendran.jpeg",
+  "expertise": "Radiology, Oncology AI, Foundation Models",
+  "linkedin": "https://www.linkedin.com/in/dr-ohmini-krishnamurthy-rajendran-291b25408",
+  "email": "jsmnk4@gmail.com"
+},
+{
+  "name": "Dr. Rajatha Maradi Hemanth Kumar",
+  "affiliation": "General Practitioner & Clinical Researcher, Elova Hospitals",
+  "location": "India",
+  "image": "/judges/Dr_Rajatha_Maradi_Hemanth_Kumar.jpeg",
+  "expertise": "Clinical Research, Oncology AI, Data Analysis",
+  "linkedin": "https://www.linkedin.com/in/rajatha-mh-141b3832",
+  "email": "meetrajatha@gmail.com"
 }
 ]
   return (
