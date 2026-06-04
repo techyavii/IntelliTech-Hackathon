@@ -218,6 +218,15 @@ const Judges = () => {
   "expertise": "Clinical Research, Oncology AI, Data Analysis",
   "linkedin": "https://www.linkedin.com/in/rajatha-mh-141b3832",
   "email": "meetrajatha@gmail.com"
+},
+{
+  "name": "Dr. Latha Kiran Krishna Rajendran",
+  "affiliation": "General Practitioner & Clinical Researcher, Elova Hospitals",
+  "location": "India",
+  "image": "/judges/Dr_Latha_Kiran_Krishna_Rajendran.jpeg",
+  "expertise": "Oncology AI, Foundation Models, Data Analysis",
+  "linkedin": "https://www.linkedin.com/in/lathakiran",
+  "email": "meetlathakiran@gmail.com"
 }
 ]
   return (
