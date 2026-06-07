@@ -126,10 +126,10 @@ const ProgramSchedule = () => {
               </div>
               <Button
                 className="w-full py-6 mb-4 font-bold text-lg"
-                disabled
+              
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1DinsLPCJ1oMYdWNxDdLaNeUGRj9u8SMS/view?usp=sharing",
+                    "https://docs.google.com/spreadsheets/d/1TIgJ3G-gNwpiuqiUwYkRLVbaere4NyE4lHztL6tUlzM/edit?usp=sharing",
                     "_blank"
                     
                   )
@@ -139,8 +139,8 @@ const ProgramSchedule = () => {
               </Button> 
               <Button
                 className="w-full"
-                onClick={() => window.open("https://us06web.zoom.us/j/82524425157?pwd=FaiIaPYdgJAhS97KQmT6AUWq79pZDy.1", "_blank")}
-                disabled
+                onClick={() => window.open("https://us06web.zoom.us/meetings/84079517445/invitations?signature=cCCWDFlJJdY6umcIURwN25dHCJI50p27CJ9MmCBxO9c", "_blank")}
+              
               >
                 <Video className="w-4 h-4 mr-2" />
                 <Award className="w-4 h-4 mr-2" />
