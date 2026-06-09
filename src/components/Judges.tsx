@@ -236,6 +236,15 @@ const Judges = () => {
   "expertise": "Mobile Engineering, DevOps",
   "linkedin": "https://www.linkedin.com/in/anshu7vyas/",
   "email": "anshu7vyas@gmail.com"
+},
+{
+  "name": "Suchith Goud Arella",
+  "affiliation": "Senior Software Engineer",
+  "location": "USA",
+  "image": "/judges/Suchith_Goud_Arella.jpeg",
+  "expertise": "Software Engineering",
+  "linkedin": "",
+  "email": "suchith.arella@gmail.com"
 }
 ]
   return (
