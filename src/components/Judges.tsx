@@ -227,6 +227,15 @@ const Judges = () => {
   "expertise": "Oncology AI, Foundation Models, Data Analysis",
   "linkedin": "https://www.linkedin.com/in/lathakiran",
   "email": "meetlathakiran@gmail.com"
+},
+{
+  "name": "Anshul Vyas",
+  "affiliation": "Staff Software Engineer, Turo, Inc.",
+  "location": "USA",
+  "image": "/judges/Anshul_Vyas.jpeg",
+  "expertise": "Mobile Engineering, DevOps",
+  "linkedin": "https://www.linkedin.com/in/anshu7vyas/",
+  "email": "anshu7vyas@gmail.com"
 }
 ]
   return (
