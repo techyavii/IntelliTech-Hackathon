@@ -4,20 +4,15 @@ import Navigation from "@/components/Navigation";
 //changes done here
 const feedbackVideos = [
   {
-    team: "GenZPT",
+    team: "Strategy Boosted Algorithms",
     description: "Winning team feedback on their challenge journey.",
-    link: "https://drive.google.com/file/d/1fnFtUYYKTNjHFKwiOi6lqAUXs2kxAN4F/view",
+    link: "https://drive.google.com/file/d/1PHLWhU_tNNVx3zopYJdYnCoH8n9aD15u/view?usp=sharing",
   },
   {
-    team: "Hackaholics",
+    team: "InnoQueens",
     description: "Winning team feedback on their challenge journey.",
-    link: "https://drive.google.com/file/d/1pxYv9YK41K6uKL5iwjcY7bm5Mk0m5gMT/view",
-  },
-  {
-    team: "Terminal Coders",
-    description: "Winning team feedback on their challenge journey.",
-    link: "https://drive.google.com/file/d/1yBovUQCQGerZnxw6djnFOx5IP1v3wrKW/view",
-  },
+    link: "https://drive.google.com/file/d/1FtPhqkHi8Yve8J_LpXHM8yvBaX16YUMy/view?usp=drivesdk",
+  }
 ];
 
 const ResultsPage = () => {
@@ -38,7 +33,7 @@ const ResultsPage = () => {
           {/* Results Button */}
           <div className="mt-10">
             <a
-              href="https://drive.google.com/file/d/1aDVCyD5qChA-LVxd3SK6z97njsh5lrZ6/view?usp=sharing"
+              href="https://drive.google.com/file/d/1pYjanU5mLC1HpSA5la6RVSGkYQpR3xox/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary/90 transition"
@@ -47,12 +42,12 @@ const ResultsPage = () => {
             </a>
           </div>
 
-          {/* <section className="mt-20">
+          <section className="mt-20">
             <h2 className="text-2xl font-semibold text-foreground mb-8">
               🎥 Feedback from Winning Teams
             </h2>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
               {feedbackVideos.map((video, index) => (
                 <a
                   key={index}
@@ -78,7 +73,7 @@ const ResultsPage = () => {
                 </a>
               ))}
             </div>
-          </section> */}
+          </section>
         </div>
       </div>
 

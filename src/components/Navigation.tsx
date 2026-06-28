@@ -9,7 +9,7 @@ const Navigation = () => {
   const mainNavItems = [
     { name: "Home", href: "/" },
     { name: "IntelliTech Hackathon Schedule", href: "/schedule" },
-    // { name: "Results", href: "/results" }
+    { name: "Results", href: "/results" }
   ];
 
   const resourcesItems = [
