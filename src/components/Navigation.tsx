@@ -126,8 +126,8 @@ const Navigation = () => {
                 variant="earth"
                 size="sm"
                 onClick={() => window.open("https://forms.gle/aAQ5o5SWmwzHKgCX9", "_blank")}
-                disabled
-                className="opacity-60"
+                // disabled
+                // className="opacity-60"
               >
                 Register Now
               </Button>
@@ -206,7 +206,7 @@ const Navigation = () => {
                     className="w-full "
                      onClick={() => window.open("https://forms.gle/aAQ5o5SWmwzHKgCX9", "_blank")}
 
-                    opacity-60
+                    // opacity-60
                   >
                     Register Now
                   </Button>
