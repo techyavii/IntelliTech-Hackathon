@@ -13,7 +13,7 @@ const ProgramSchedule = () => {
     {
       title: "Two Rounds",
       icon: <Award className="w-5 h-5" />,
-      description: "Selection Round on Day 1 (June 6) and Final Round on Day 2 (June 7)."
+      description: "Selection Round on Day 1 (January 29) and Final Round on Day 2 (January 30)."
     },
     {
       title: "Presentation Time",
@@ -73,7 +73,7 @@ const ProgramSchedule = () => {
               <Badge variant="secondary" className="w-fit mx-auto mb-2">Day 1</Badge>
               <CardTitle className="text-2xl text-foreground flex items-center justify-center gap-3">
                 <Calendar className="w-6 h-6 text-earth-green" />
-                June 6, 2026
+                January 29, 2027
               </CardTitle>
               <p className="text-lg font-semibold text-earth-green">Selection Round</p>
             </CardHeader>
@@ -85,7 +85,7 @@ const ProgramSchedule = () => {
                   Teams will be evaluated based on the judging criteria.
                 </p>
               </div>
-              <Button
+              {/* <Button
                 className="w-full py-6 mb-4 font-bold text-lg"
                 onClick={() =>
                   window.open(
@@ -102,7 +102,7 @@ const ProgramSchedule = () => {
               >
                 <Video className="w-4 h-4 mr-2" />
                 Join Session
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
 
@@ -112,7 +112,7 @@ const ProgramSchedule = () => {
               <Badge variant="secondary" className="w-fit mx-auto mb-2 bg-earth-green text-white">Day 2</Badge>
               <CardTitle className="text-2xl text-foreground flex items-center justify-center gap-3">
                 <Calendar className="w-6 h-6 text-earth-green" />
-                June 7, 2026
+                January 30, 2027
               </CardTitle>
               <p className="text-lg font-semibold text-earth-green">Final Round</p>
             </CardHeader>
@@ -124,7 +124,7 @@ const ProgramSchedule = () => {
                   Winners will be announced and prizes distributed.
                 </p>
               </div>
-              <Button
+              {/* <Button
                 className="w-full py-6 mb-4 font-bold text-lg"
               
                 onClick={() =>
@@ -145,7 +145,7 @@ const ProgramSchedule = () => {
                 <Video className="w-4 h-4 mr-2" />
                 <Award className="w-4 h-4 mr-2" />
                 Join Final Round (For Selected Teams Only)
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
         </div>
@@ -187,10 +187,10 @@ const ProgramSchedule = () => {
                 📅 Important Dates
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Registration Opens: 20th April 2026<br/>
-                Idea Submission Deadline: 25th May 2026<br/>
-                Hackathon Dates: 06-07th June 2026<br/>
-                Final Presentation & Awards: 06-07th June 2026
+                Registration Opens: 10th November 2026<br/>
+                Idea Submission Deadline: 10th January 2027<br/>
+                Hackathon Dates: 29-30th January 2026<br/>
+                Final Presentation & Awards: 30th January 2026
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <div className="flex items-center gap-2 text-earth-green font-medium">

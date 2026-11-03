@@ -97,7 +97,7 @@ const JudgeRecognitionAwards = () => {
         <div className="text-center bg-gradient-to-r from-emerald-500 to-blue-500 p-8 md:p-12 rounded-3xl text-white shadow-xl">
           <h4 className="text-2xl md:text-3xl font-bold mb-4">Award Ceremony</h4>
           <p className="text-lg md:text-xl opacity-90 mb-3 max-w-2xl mx-auto">
-            The Judges Recognition Awards will be presented during the closing ceremony of the IntelliTech Hackathon on <b>06-07th June 2026</b>. We encourage all participants to join us in celebrating the valuable contributions of our esteemed judges and experts.
+            The Judges Recognition Awards will be presented during the closing ceremony of the IntelliTech Hackathon on <b>30th January 2027</b>. We encourage all participants to join us in celebrating the valuable contributions of our esteemed judges and experts.
           </p>
         </div>
       </section>

@@ -4,38 +4,38 @@ import { CheckCircle, Clock, Calendar } from "lucide-react";
 const Timeline = () => {
   const events = [
     {
-      date: "20 April, 2026",
+      date: "10 November, 2026",
       activity: "Registration Opens",
       status: "upcoming",
       icon: <Calendar className="w-5 h-5" />
     },
     {
-      date: "25 May, 2026",
+      date: "10 January, 2027",
       activity: "Idea Submission Deadline",
       status: "upcoming",
       icon: <Clock className="w-5 h-5" />
     },
     {
-      date: "June 6, 2026",
+      date: "29 January, 2027",
       activity: "Selection Round (Shortlisting of Teams)",
       status: "upcoming", 
       icon: <CheckCircle className="w-5 h-5" />
     },
     {
-      date: "June 6, 2026 (midnight)",
+      date: "29 January, 2027 (midnight)",
       activity: "Notification of Shortlisted Teams For Final Round",
       status: "upcoming",
       icon: <CheckCircle className="w-5 h-5" />
     },
     {
-      date: "June 6-7, 2026",
+      date: "January 29-30, 2027",
       // time: "9:00 AM to 11:30 AM",
-      activity: "IntelliTechHack 2026 Hackathon",
+      activity: "2nd IntelliTechHack 2026 Hackathon",
       status: "main-event",
       icon: <Calendar className="w-5 h-5" />
     },
     {
-      date: "June 7, 2026",
+      date: "30 January, 2027",
       // time: "7:00 PM",
       activity: "Announcement of Winners, Certificate and Prize Distribution",
       status: "main-event",
@@ -126,7 +126,7 @@ const Timeline = () => {
             Don't Miss Out!
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Registration opens on 20th April 2026 and closes on 25th May 2026. 
+            Registration opens on 10th November 2026 and closes on 10th January 2027. 
             Make sure to register early to secure your spot in this amazing challenge!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

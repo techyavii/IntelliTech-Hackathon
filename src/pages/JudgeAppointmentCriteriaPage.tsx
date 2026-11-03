@@ -164,7 +164,7 @@ const JudgeAppointmentCriteriaPage = () => {
                     Judge Reveal
                   </h2>
                   <p className="text-lg opacity-90 leading-relaxed mb-8">
-                    Our distinguished panel of environmental AI experts will be unveiled in March 2026. These industry leaders and researchers will bring unparalleled expertise to evaluate your innovative solutions.
+                    Our distinguished panel of environmental AI experts will be unveiled in December 2026. These industry leaders and researchers will bring unparalleled expertise to evaluate your innovative solutions.
                   </p>
 
                   <div className="border-t border-white/20 pt-8">

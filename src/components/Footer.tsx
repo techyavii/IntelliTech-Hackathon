@@ -23,7 +23,7 @@ const Footer = () => {
     {
       icon: <Calendar className="w-4 h-4" />,
       label: "Event Date",
-      value: "06-07th June 2026"
+      value: "29-30th January 2027"
     },
     {
       icon: <Mail className="w-4 h-4" />,
@@ -55,16 +55,16 @@ const Footer = () => {
               <Button 
                 variant="default" 
                 className="border-white/30 text-white hover:bg-white/10 " 
-                onClick={() => window.open("https://forms.gle/6AvMpkxerf78EghG9", "_blank")}
-                opacity-60 cursor-not-allowed
-                disabled
+                onClick={() => window.open("https://forms.gle/aAQ5o5SWmwzHKgCX9", "_blank")}
+                opacity-60
+                // disabled
               >
                 Register Your Team
                 <ExternalLink className="w-4 h-4 ml-2" />
               </Button>
-              <div className="absolute -top-2 -right-2 bg-red-500 text-white font-bold px-2 py-0.5 rounded-full shadow-lg text-xs animate-pulse">
+              {/* <div className="absolute -top-2 -right-2 bg-red-500 text-white font-bold px-2 py-0.5 rounded-full shadow-lg text-xs animate-pulse">
                 Closed
-              </div>
+              </div> */}
             </div>
           </div>
 
