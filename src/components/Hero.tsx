@@ -32,7 +32,7 @@ const Hero = () => {
         {/* Logo/Brand */}
         <div className="mb-8 animate-fade-in">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold mb-4 bg-gradient-to-r from-white to-indigo-700 bg-clip-text text-transparent leading-tight">
-            2<sup>nd</sup> IntelliTech Hackathon: Engineering Smart Solutions
+            2nd IntelliTech Hackathon: Engineering Smart Solutions
 
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl font-light opacity-90">
